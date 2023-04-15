@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(246, 246, 246);
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+background-size: cover;
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(https://raw.githubusercontent.com/StartBootstrap/startbootstrap-grayscale/master/src/assets/img/bg-masthead.jpg);
+background-position: center;
+font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+     width: 100%;
+     position: fixed;
+    
+     padding: 25px 0;
+     display: flex;
+justify-content: space-around;
+     z-index: 2;
+
+    
+}
+
+h1{
+    width: 300px;
+    font-size: 20px;
+    cursor:pointer;
+    color:rgb(40,39,39);
+    margin-right: 100px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 35px;
+  font-size: 20px;
+  
+}
+a{
+    text-decoration: none;
+    color:rgb(40, 39, 39);
+    font-size: 19px;
+ 
+}
+a:hover{
+    color: rgb(58, 173, 144);
+}
+.content{
+ width: 100%;
+ position: absolute;
+ top: 50%;
+ transform: translateY(-50%);
+text-align: center;
+color:white;
+}
+
+.h1{
+    
+    font-size:100px;
+    margin-top:70px;
+    color: rgb(169, 165, 165);
+    text-shadow: 2px 4px 4px rgba(233, 234, 237, 0.6);
+    background: linear-gradient(to right, rgba(187, 187, 187, 0) 5%, rgba(168, 170, 170, 0.5) 20%, rgba(142, 139, 139, 0) 61%), linear-gradient(rgb(164, 169, 169) 52 rgb(191, 198, 198)01) 60%, rgb(185, 185, 185) 81%;
+}
+.p1{
+    width: 530px;
+margin: 20px auto;
+font-weight: 100;
+font-size: 24px;
+line-height: 35px;
+color: rgb(181, 180, 180);
+}
+button{
+    width: 200px;
+    height: 60px;
+    font-size:17px;
+    font-weight: bold;
+    background-color: rgb(76, 163, 134);
+    color: rgb(244, 247, 245);
+    border-radius: 10px;
+    border: none;
+}
+.content2{
+    height: 600px;
+  background-color: rgb(21, 19, 19);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:column ;
+}
+#about{
+    height: 760px;
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+margin-bottom: 50px;
+
+}
+.ipad{
+    width: 87%;
+
+
+}
+
+.abouth1,.aboutp{
+
+    padding: 20px;
+ 
+
+
+}
+.abouth1{
+    font-size: 30px;
+    width: 400px;
+    margin-top: 14%;
+    color: white;
+
+}
+.aboutp{
+    width:720px;
+    font-weight: bold;
+    color: rgb(111, 111, 111);
+   
+}
+.content3{
+   
+    height: 680px;
+    background-color: rgb(246,246,246);
+}
+.projectimg{
+    width: 850px;
+    height: 500px;
+    margin-top: 8%;
+ margin-left: 120px;
+
+}
+h4{
+ margin-left: 90px;
+ font-size: 26px;
+ color: rgb(70, 69, 69);
+}
+.projectp{
+    width: 330px;
+padding: 10px;
+line-height: 25px;
+color: gray;
+ 
+}
+.projecttext{
+    margin-left: 63.8%;
+    justify-content: center;
+    margin-top: -20%;
+    border-left: 0.5rem solid #64a19d;
+    padding-left: 40px;
+}
+
+table{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+ border-collapse: collapse;
+}
+.td1,.td2,.td3,.td4{
+    width: 600px;
+    height: 400px;
+
+   
+}
+.td1{
+    background-color: #000;
+   
+    
+}
+.td2{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.td3{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.td4{
+    background-color: rgb(12, 12, 12);
+}
+.tableh{
+    margin-left: 42%;
+    font-size: 35px;
+    color: azure;
+    padding: 10px;
+}
+.tableh5{
+    margin-left: 35%;
+    font-size: 35px;
+    color: azure;
+    padding: 10px;
+}
+.tablep{
+    width: 420px;
+    margin-left: 90px;
+    color: rgb(163, 161, 161);
+    font-weight: bold;
+}
+.tableptd3{
+    width: 420px;
+    margin-left: 100px;
+    color: rgb(163, 161, 161);
+    font-weight: bold;
+}
+
+#contact {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-signup.jpg);
+margin-top: 120px;
+    padding: 50px 0;
+  }
+  #contact .content4 {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+
+  #contact .content4 h3 {
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 32px;
+    padding-top: 20px;
+  }
+  #contact .content4 input[type="email"] {
+    width: 40%;
+    height: 50px;
+    padding: 0 20px;
+    border: none;
+    margin-top: 30px;
+    border-radius: 5px;
+  }
+
+  #contact .content4 input[type="submit"] {
+    width: 150px;
+    height: 50px;
+    background-color:#64a19d;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .fa-regular{
+    font-size: 30px;
+  }
+
+
+
+
+
+
+.contactboxes{
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  padding: 40px;
+   
+}
+.box1{
+    background-color: white;
+   
+}
+.box2{
+    background-color: white;
+   
+}
+.box3{background-color: white;
+   }
+.box1,.box2,.box3{
+    width: 450px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0px 4px #64a19d ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.fa-solid{
+    margin-top: -40px;
+    padding: 10px;
+    font-size: 25px;
+}
+.contactboxes p,h5{
+font-size: 20px;
+line-height: 55px;
+}
+
+hr{
+    width: 90px;
+    height: 4px;
+    background-color: #64a19d;
+    margin-left: 40%;
+  
+}
+
+footer {
+    width: 100%;
+    color: white;
+    background: linear-gradient(to bottom, #323131 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    height: 200px;
+ }
+ footer .text {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    color: gray;
+ }
+ footer .icons {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+footer .icons .mediaicons {
+    display: flex;
+}
+.firsticon,.secondicon,.thirdicon {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(26,26,26);
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .fa-brands {
+    color: rgb(90,90,90 );
+}
